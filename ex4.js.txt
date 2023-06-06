@@ -1,0 +1,16 @@
+const prompt = require ('prompt-sync') ({sigint:true});
+console.log("bem vindo")
+var Numero = Number(prompt("digite quantos KG o peixe possui"));
+function imposto(kg_pescado){
+    var passou = kg_pescado -20;
+    var taxa = passou * 5;
+    console.log(taxa);
+    
+}
+//perguntar qtos kg a pessoa pescou
+var resposta = Number(prompt("quantos kg você pescou?  "));
+if(resposta > 20){
+    imposto(resposta)
+}else{
+    console.log("obrigado pela visita!");
+}

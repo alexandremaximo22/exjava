@@ -1,0 +1,6 @@
+const prompt = require("prompt-sync")({sigint: true});
+console.log("lista de compras");
+var produtos = ["banana","Laranja","Manga"];
+console.log(produtos);
+produtos.pop();
+console.log(produtos)
